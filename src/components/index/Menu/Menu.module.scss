@@ -1,0 +1,18 @@
+.menu {
+  padding: var(--calc-vw-30px);
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--calc-vw-30px);
+
+    font-family: var(--font-family-M);
+    font-weight: 200;
+    font-size: var(--calc-vw-18px);
+    text-transform: uppercase;
+  }
+
+  &__list li:hover {
+    font-weight: 400;
+  }
+}

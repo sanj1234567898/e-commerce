@@ -1,0 +1,14 @@
+.labels {
+  padding: calc(1.5rem + 1.875vh) 0;
+  border-bottom: 1px solid var(--color-background-theme);
+  border-top: 1px solid var(--color-background-theme);
+}
+
+.image__wrapper {
+  margin: 0 calc(2.5rem + 1.736111vw);
+
+  svg {
+    width: calc(5rem + 3.47222vw);
+    height: calc(5rem + 3.47222vw);
+  }
+}

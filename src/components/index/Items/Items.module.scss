@@ -1,0 +1,8 @@
+.items__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--calc-vw-20px);
+  margin: calc(4rem + 5vh) 0;
+}

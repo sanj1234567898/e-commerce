@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 22.9rem;
+
+  img {
+    border-radius: 2rem;
+    object-fit: cover;
+    height: 27rem;
+  }
+
+  &__description {
+    padding: 0.7rem 1rem 1.2rem 1.8rem;
+  }
+
+  .description__name {
+    font-family: var(--font-family-M);
+    font-size: var(--calc-vw-18px);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .description__price {
+    font-size: var(--calc-vw-18px);
+    font-weight: 400;
+  }
+}
