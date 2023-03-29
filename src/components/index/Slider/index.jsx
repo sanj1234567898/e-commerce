@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper";
+import Image from "next/image";
 
 export default function App() {
   return (
@@ -27,19 +28,49 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/img/slider/girl.jpg" alt="" />
+          <Image
+            src="/img/slider/girl.jpg"
+            alt=""
+            width={"1000"}
+            height={"1000"}
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/slider/woman.jpg" alt="" />
+          <Image
+            src="/img/slider/woman.jpg"
+            alt=""
+            width={"1000"}
+            height={"1000"}
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/slider/asia.jpg" alt="" />
+          <Image
+            src="/img/slider/asia.jpg"
+            alt=""
+            width={"1000"}
+            height={"1000"}
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/slider/portrait (1).jpg" alt="" />
+          <Image
+            src="/img/slider/portrait (1).jpg"
+            width={"1000"}
+            height={"1000"}
+            loading="lazy"
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/slider/portrait (2).jpg" alt="" />
+          <Image
+            src="/img/slider/portrait (2).jpg"
+            alt=""
+            width={"1000"}
+            height={"1000"}
+            loading="lazy"
+          />
         </SwiperSlide>
       </Swiper>
     </>

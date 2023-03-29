@@ -8,11 +8,6 @@ const Items = () => {
       <div className={styles["items__wrapper"]}>
         <Card />
         <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </div>
   );

@@ -1,3 +1,13 @@
+.card__wrapper {
+  position: relative;
+}
+
+.card__wrapper:hover {
+  .buttom__wrapper {
+    display: block;
+  }
+}
+
 .card {
   position: relative;
   display: flex;
@@ -26,4 +36,48 @@
     font-size: var(--calc-vw-18px);
     font-weight: 400;
   }
+}
+
+.buttom__wrapper {
+  position: absolute;
+  display: none;
+  bottom: 10rem;
+  left: 8%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button__like {
+  padding: 0.9rem;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+
+  svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.button__like:active {
+  scale: 0.98;
+}
+
+.button__add:active {
+  scale: 0.98;
+}
+
+.button__add {
+  padding: 1.5rem 1rem;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+
+  font-family: var(--font-family-M);
+  font-size: 1.8rem;
 }
