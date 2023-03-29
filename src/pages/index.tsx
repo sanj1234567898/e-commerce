@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "@/components/index/Header";
+import Header from "@/components/Header";
 import Hero from "@/components/index/Hero";
 import Menu from "@/components/index/Menu";
 import Labels from "@/components/index/Labels/Labels";
@@ -18,7 +18,6 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
         <Hero />
         <Menu />
         <Labels />

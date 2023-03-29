@@ -22,7 +22,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/components/index/Slider/index.jsx"
+    "src/components/index/Slider/index.jsx",
+    "src/components/Layout.jsx"
   ],
   "exclude": ["node_modules"]
 }
