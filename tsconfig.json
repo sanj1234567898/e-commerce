@@ -23,7 +23,17 @@
     "**/*.ts",
     "**/*.tsx",
     "src/components/index/Slider/index.jsx",
-    "src/components/Layout.jsx"
+    "src/components/Layout.jsx",
+    "src/components/index/Menu/index.jsx",
+    "src/components/index/Labels/Labels.jsx",
+    "src/components/index/Items/index.jsx",
+    "src/components/index/Hero/index.jsx",
+    "src/components/index/Card/index.jsx",
+    "src/components/Header/index.jsx",
+    "src/pages/_app.jsx",
+    "src/pages/_document.jsx",
+    "src/pages/index.jsx",
+    "src/pages/[id].jsx"
   ],
   "exclude": ["node_modules"]
 }

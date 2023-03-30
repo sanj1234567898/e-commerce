@@ -1,7 +1,13 @@
 .items__wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  align-items: center;
+
+  overflow: hidden;
   justify-content: center;
   gap: var(--calc-vw-20px);
   margin: calc(4rem + 5vh) 0;

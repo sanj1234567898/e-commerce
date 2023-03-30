@@ -3,14 +3,14 @@ import React from "react";
 import styles from "./Card.module.scss";
 import { AiOutlineHeart } from "react-icons/ai";
 
-const Card = () => {
+const Card = ({ data }) => {
   return (
     <div className={styles["card__wrapper"]}>
-      <Link href={"/"} className={styles["card"]}>
-        <img src="/img/card/work-boots.jpg" alt="" />
+      <Link href={`/${data.id}`} className={styles["card"]}>
+        <img src={data.image} alt="" />
         <div className={styles["card__description"]}>
-          <p className={styles["description__name"]}>Lorem Ipsum</p>
-          <p className={styles["description__price"]}>$105.00</p>
+          <p className={styles["description__name"]}>{data.name}</p>
+          <p className={styles["description__price"]}>${data.price}</p>
         </div>
       </Link>
 

@@ -12,7 +12,7 @@ import {
   Si3M,
 } from "react-icons/si";
 
-const Labels: React.FC = () => {
+const Labels = () => {
   return (
     <div className={styles["labels"]}>
       <Marquee pauseOnHover={true} speed={35} gradient={false}>

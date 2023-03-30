@@ -16,7 +16,7 @@
   }
   &__logo {
     color: #fff;
-    font-size: var(--calc-vw-30px);
+    font-size: var(--calc-vw-30px) !important;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
   }

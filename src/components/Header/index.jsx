@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./Header.module.scss";
 
@@ -6,20 +7,20 @@ const Header = () => {
     <header className={styles["header"]}>
       <div className="container">
         <div className={styles["header__inner"]}>
-          <a href="/" className={styles["header__logo"]}>
+          <Link href="/" className={styles["header__logo"]}>
             Style
-          </a>
+          </Link>
           <nav className={styles["header__nav"]}>
             <ul>
               <li>
-                <a href="/cart">
+                <Link href="/cart">
                   <img src="/svg/nav/shopping-cart.svg" alt="cart" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/like">
+                <Link href="/like">
                   <img src="/svg/nav/heart.svg" alt="like" />
-                </a>
+                </Link>
               </li>
               <li>
                 <img src="/svg/nav/moon.svg" alt="theme" />

@@ -6,10 +6,10 @@ const Menu = () => {
     <div className={styles["menu"]}>
       <ul className={styles["menu__list"]}>
         <li>
-          <a href="/all">All</a>
+          <div href="/all">All</div>
         </li>
         <li>
-          <a href="/all">Sale items</a>
+          <div href="/all">Sale items</div>
         </li>
       </ul>
     </div>

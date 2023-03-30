@@ -1,11 +1,20 @@
 import Head from "next/head";
-import Header from "@/components/Header";
 import Hero from "@/components/index/Hero";
 import Menu from "@/components/index/Menu";
 import Labels from "@/components/index/Labels/Labels";
 import Items from "@/components/index/Items";
 
-const Home = () => {
+export async function getStaticProps() {
+  const data = await (await fetch("http://localhost:3001/items"))?.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
+const Home = ({ data }) => {
   return (
     <>
       <Head>
@@ -21,7 +30,7 @@ const Home = () => {
         <Hero />
         <Menu />
         <Labels />
-        <Items />
+        <Items data={data} />
       </main>
     </>
   );
