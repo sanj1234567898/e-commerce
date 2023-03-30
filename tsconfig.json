@@ -33,7 +33,8 @@
     "src/pages/_app.jsx",
     "src/pages/_document.jsx",
     "src/pages/index.jsx",
-    "src/pages/[id].jsx"
+    "src/pages/[id].jsx",
+    "src/redux/card/cardSlice.js"
   ],
   "exclude": ["node_modules"]
 }
